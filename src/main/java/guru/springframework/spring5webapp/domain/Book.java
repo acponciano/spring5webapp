@@ -66,26 +66,6 @@ public class Book {
         this.authors = authors;
     }
 
-    public Book id(Long id) {
-        setId(id);
-        return this;
-    }
-
-    public Book title(String title) {
-        setTitle(title);
-        return this;
-    }
-
-    public Book isbn(String isbn) {
-        setIsbn(isbn);
-        return this;
-    }
-
-    public Book authors(Set<Author> authors) {
-        setAuthors(authors);
-        return this;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (o == this)

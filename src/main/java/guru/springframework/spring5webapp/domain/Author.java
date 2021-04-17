@@ -63,26 +63,6 @@ public class Author {
         this.books = books;
     }
 
-    public Author id(Long id) {
-        setId(id);
-        return this;
-    }
-
-    public Author firstName(String firstName) {
-        setFirstName(firstName);
-        return this;
-    }
-
-    public Author lastName(String lastName) {
-        setLastName(lastName);
-        return this;
-    }
-
-    public Author books(Set<Book> books) {
-        setBooks(books);
-        return this;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (o == this)
